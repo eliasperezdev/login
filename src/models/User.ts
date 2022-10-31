@@ -54,8 +54,8 @@ export default function initUserModel(sequelize: Sequelize, DataTypes: typeof ty
     },
   }, {
     sequelize,
-    modelName: 'User',
-    tableName: 'Users',
+    modelName: 'user',
+    tableName: 'users',
     timestamps: true,
     paranoid: false,
     underscored: true,
