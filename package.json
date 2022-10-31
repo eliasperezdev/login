@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc --build",
-    "migrate": "npm run build && sequelize-cli db:migrate"
+    "migrate": "npm run build && sequelize-cli db:migrate",
+    "seeders": "npm run build && sequelize-cli db:seed:all"
   },
   "keywords": [],
   "author": "",
