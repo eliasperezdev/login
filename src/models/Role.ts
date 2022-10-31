@@ -35,7 +35,7 @@ export default function initRoleModel(sequelize: Sequelize, DataTypes: typeof ty
     updatedAt: DataTypes.DATE,
   }, {
     sequelize,
-    modelName: 'Role',
+    modelName: 'role',
     tableName: 'roles',
     timestamps: true,
     paranoid: false,
